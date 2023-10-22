@@ -36,4 +36,5 @@ body {
 
 .Project_icon i {
   font-size: 30px;
+  cursor: pointer;
 }
