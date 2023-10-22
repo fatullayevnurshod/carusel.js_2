@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Project_imgs {
+  max-width: 500px;
+  height: 750px;
+  display: flex;
+  overflow-x: hidden;
+}
+.Project_imgs .img {
+  max-width: 500px;
+  height: 700px;
+}
+.imgs {
+  display: flex;
+}
+
+.Project_icon {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 710px;
+  left: -10px;
+  z-index: 1;
+}
+
+.Project_icon i {
+  font-size: 30px;
+}
